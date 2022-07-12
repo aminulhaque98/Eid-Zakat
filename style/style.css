@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+ul,
+li {
+    list-style-type: none;
+
+}
+
+ul,
+li,
+a {
+    text-decoration: none;
+}
+
+.containar {
+    background-image: url("../images/cow-haat.jpg");
+    height: 100%;
+    width: auto;
+    /* margin: auto; */
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+h1 {
+    color: blue
+}
