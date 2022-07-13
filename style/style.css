@@ -4,10 +4,12 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    background-color: aliceblue;
 }
 
 #logo {
     border-radius: 50px;
+
 
 }
 
@@ -22,7 +24,9 @@ li {
     list-style-type: none;
     background-color: rgb(0, 0, 0);
     height: 50px;
-    border-radius: 10px;
+    /* border-radius: 10px; */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 
 }
 
@@ -95,12 +99,12 @@ p {} */
     font-size: 30px;
 }
 
-/* not active */
-#picture-border {
+
+/* #picture-border {
     height: 500px;
     width: 400px;
-    border-radius: 10px;
-}
+    border-radius: 10px; 
+}*/
 
 .third-containar {
     display: flex;
@@ -121,5 +125,42 @@ p {} */
 }
 
 .forth-containar {
-    display: flex;
+    display: block;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+#header-sizing {
+    width: 500px;
+    padding-top: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+#grid-containar {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 2em;
+    height: 500px;
+}
+
+.background {
+    background-color: bisque;
+    padding-left: 160px;
+    padding-top: 30px;
+    padding-right: 30px;
+    border-radius: 15px;
+
+}
+
+#picture-design {
+    text-align: center;
+    padding-top: 100px;
+}
+
+#picture-design img {
+    padding: 10px;
+    border-radius: 20px;
 }
