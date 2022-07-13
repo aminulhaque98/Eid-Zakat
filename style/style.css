@@ -164,3 +164,18 @@ p {} */
     padding: 10px;
     border-radius: 20px;
 }
+
+#sixth-containar {}
+
+.last-containar {
+    display: flex;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 2em;
+    height: 500px;
+
+}
+
+.border-solid {
+    border: 1px solid black;
+    border-radius: 10px;
+}
