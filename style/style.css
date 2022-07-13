@@ -78,24 +78,48 @@ p {} */
 
 .second-containar {
     display: flex;
-    padding: 100px;
+    padding-top: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+    gap: 60px;
 
 }
 
 .font-sizer {
-    padding-left: 100px;
-    padding-top: 40px;
-    padding-right: 150px;
-
+    padding-top: 30px;
 }
 
-#second-font-family {
+.second-font-family {
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
     font-size: 30px;
 }
 
 /* not active */
-#border {
-    border-radius: 20px;
+#picture-border {
+    height: 500px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.third-containar {
+    display: flex;
+    padding-top: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+    gap: 60px;
+}
+
+#picture-size {
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+#design {
+    padding-top: 50px;
+}
+
+.forth-containar {
+    display: flex;
 }
